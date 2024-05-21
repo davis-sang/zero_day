@@ -32,3 +32,5 @@ def hanoi(n, source, auxiliary, destination):
 
 # Test the function with 5 disks
 hanoi(5, 'A', 'B', 'C')
+# Note: Uncommenting the line below will run the process for 64 disks, but it is not practical to execute.
+# hanoi(64, 'A', 'B', 'C')
