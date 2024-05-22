@@ -7,3 +7,5 @@
 ## 2. Tower of Hanoi - Recursion
 -   Task demonstrating the hanoi problem and the possible end of the world....![NailBitingGIF](https://github.com/davis-sang/zero_day/assets/99921124/8617c3ca-41a3-4d2a-8a7c-67d380c80976)
 
+## 3. Binary Search
+-   Task demonstrating binary search efficiency over naive search on sorted lists.
