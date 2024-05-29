@@ -9,3 +9,6 @@
 
 ## 3. Binary Search
 -   Task demonstrating binary search efficiency over naive search on sorted lists.
+
+## 4. Reversed linked list
+-   Diving into linked lists, Stacks and Queues
