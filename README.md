@@ -12,3 +12,6 @@
 
 ## 4. Reversed linked list
 -   Diving into linked lists, Stacks and Queues
+
+## 5. Graphs
+-   Diving into BFS/DFS algos![alt text](image.png)
