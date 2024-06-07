@@ -15,3 +15,6 @@
 
 ## 5. Graphs
 -   Diving into BFS/DFS algos![alt text](image.png)
+
+## 6. DSA Sidequests
+-   Simple tests. 
