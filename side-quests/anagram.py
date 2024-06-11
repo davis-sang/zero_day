@@ -1,29 +1,18 @@
-
-
-from typing import List
-from collections import defaultdict
+from collections import Counter
 
 class Solution:
-    def anagram_checker(self, strs: List[str]) -> List[List[str]]:
-        anagrams_dict = defaultdict(list)
-        for s in strs: # n
-            count = [0] * 26
-            for c in s:
-                count[ord(c) - ord('a')] += 1
-            
-            key = tuple(count)
-            anagrams_dict[key].append(s)
+    def isAnagram(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
+        s_dict = Counter(s)
+        t_dict = Counter(t)
 
-        return anagrams_dict.values()
-    
-    # Time: O(n * m) Space: (n 
+        if s_dict == t_dict:
+            return True
+        
+test = Solution()
+test_data_1 = "listen"
+test_data_2 = "silent"
 
-
-test  = Solution()
-test_data = ["tan", "nat", "eat", "ate", "bat"]
-
-t = test.anagram_checker(test_data)
-
-print(t)
-# ([['tan', 'nat'], ['eat', 'ate'], ['bat']]) -> grouped anagram
-
+print(test.isAnagram(test_data_1, test_data_2))
+# True
