@@ -33,7 +33,7 @@ class Solution:
             l_mult *= num[i]
             r_mult *= num[j]
     
-        return [l * r for l, r in zip(l_arr, r_arr)]
+        return [l * r for l, r in zip(l_arr, r_arr)]  # noqa: E741
     
 
 test = Solution()
